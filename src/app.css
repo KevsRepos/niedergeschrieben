@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind utilities;
+
+/* itim-regular - latin */
+@font-face {
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/itim-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/itim-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/itim-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/itim-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/itim-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/itim-v8-latin-regular.svg#Itim') format('svg'); /* Legacy iOS */
+}
+  
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim';
+}
+
+body {
+    background-color: 
+}
