@@ -1,12 +1,14 @@
 <script>
-import StoryForm from "./_components/StoryForm.svelte";
-
+import Center from "$lib/components/layout/Center.svelte";
+import StoryForm from "$lib/components/layout/inputs/StoryForm.svelte";
 </script>
 
-<section class="flex justify-center items-center h-screen">
-    <StoryForm />    
-</section>
+<Center>
+    <section class="h-screen">
+        <StoryForm doTransition={true} submitText="Weiter" />
+    </section>
 
-<section>
-    
-</section>
+    <section>
+        
+    </section>
+</Center>
