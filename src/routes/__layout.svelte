@@ -18,11 +18,11 @@ const toggleTheme = theme => {
 </script>
 
 
-<nav class="ppr-border fixed flex justify-between">
+<nav class="ppr-border fixed top-0 flex justify-between">
     <a href="/" class="ppr-border-none p-2">Niedergeschrieben.net</a>
     <div>
         <select value={clientTheme} on:change={e => toggleTheme(e.currentTarget.value)}>
-            <option value="light">light</option>
+            <option value="light">Light</option>
             <option value="dark">Dark</option>
         </select>
     </div>
